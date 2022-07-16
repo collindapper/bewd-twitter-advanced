@@ -29,6 +29,7 @@ gem 'bcrypt', '~> 3.1'
 
 # AWS S3
 gem 'aws-sdk-s3', '~> 1.112'
+gem 'aws-sdk', '~> 3.0'
 
 # Webrick
 gem "webrick", "~> 1.7"
@@ -68,5 +69,5 @@ end
 
 group :production do
   # Use pg as the database for Active Record
-  # gem 'pg', '~> 1.3.1'
+  gem 'pg', '~> 1.3.1'
 end

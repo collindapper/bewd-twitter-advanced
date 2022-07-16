@@ -22,3 +22,7 @@ db/*.sqlite3
 public/system
 .env
 storage
+
+# Ignore .env
+
+.env
